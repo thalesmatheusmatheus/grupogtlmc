@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<meta charset="utf-8" />
+<title> Cinema </title>
+
+<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Combos</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"> Filmes <span class="sr-only">(Página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> Sessões </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"> Combos </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</head>
+
+<body>
+
+  <>
+    <div class="movie-container">
+      <label>Seleção de Filmes:</label>
+      <select id="movie">
+        <option>Selecione</option>
+        <option value="10">Avatar: O caminha da água ($10)</option>
+        <option value="12">Joker ($12)</option>
+        <option value="8">Toy Story 4 ($8)</option>
+        <option value="9">The Lion King ($9)</option>
+      </select>
+    </div>
+
+    <ul class="showcase">
+      <li>
+        <div class="seat"></div>
+        <small>Dispinivel</small>
+      </li>
+
+      <li>
+        <div class="seat selected"></div>
+        <small>Selecionado</small>
+      </li>
+
+      <li>
+        <div class="seat occupied"></div>
+        <small>Vendido</small>
+      </li>
+    </ul>
+
+    <div class="container">
+      <div class="screen"></div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat occupied"></div>
+        <div class="seat"></div>
+      </div>
+    </div>
+
+    <p class="text">
+      Você selecionou <span id="count">0</span> assento por um preço de R$ $<span id="total">0</span>
+    </p>
+    <script src="script.js"></script>
+  
+	
+
+<main>
+<br></br>
+	<div class="centro">
+	<div class="card border-dark mb-3" style="width: 24rem; height: 24rem; left:31%">
+	<img class="card-img-top" src=" " alt=" colocar imagem">
+	<div class="card-body">
+	<h5 class="card-title"> <br></br> COMBO 1 <br></br> R$50,50 </h5>
+	<p class="card-descricao"> 
+	Pipoca Grande Salgada + 2 Refrigerantes (700ml)
+	</p> <br></br>
+	<a href="#" class="btn btn-secondary" onclick="alert('Combo 1 Selecionado!')">Selecionar Combo</a>
+	</div>
+	</div>
+	
+	<br></br>
+	<div class="centro">
+	<div class="card border-dark mb-3" style="width: 24rem; height: 24rem; left:31%">
+	<img class="card-img-top" src=" " alt=" colocar imagem">
+	<div class="card-body">
+	<h5 class="card-title"> <br></br> COMBO 2 <br></br> R$52,25 </h5>
+	<p class="card-descricao"> 
+	Pipoca Grande Mista + 2 Refrigerantes (700ml)
+	</p> <br></br>
+	<a href="#" class="btn btn-secondary" onclick="alert('Combo 2 Selecionado!')">Selecionar Combo</a>
+	</div>
+	</div>
+	<br></br>
+	<div class="centro">
+	<div class="card border-dark mb-3" style="width: 24rem; height: 24rem; left:31%">
+	<img class="card-img-top" src=" " alt=" colocar imagem">
+	<div class="card-body">
+	<h5 class="card-title"> <br></br> COMBO 3 <br></br> R$46,75 </h5>
+	<p class="card-descricao"> 
+	Pipoca Grande Salgada + 1 Refrigerante (700ml) + 1 Suco Del Valle Lata (290ml)
+	</p> <br></br>
+	<a href="#" class="btn btn-secondary" onclick="alert('Combo 3 Selecionado!')">Selecionar Combo</a>
+	</div>
+	</div>
+	<br></br>
+	<div class="centro">
+	<div class="card border-dark mb-3" style="width: 24rem; height: 24rem; left:31%">
+	<img class="card-img-top" src=" " alt=" colocar imagem">
+	<div class="card-body">
+	<h5 class="card-title"> <br></br> COMBO 4 <br></br> R$48,50 </h5>
+	<p class="card-descricao"> 
+	Pipoca Grande Mista + 1 Refrigerante (700ml) + 1Suco Del Valle Lata (290ml)
+	</p> <br></br>
+	<a href="#" class="btn btn-secondary" onclick="alert('Combo 4 Selecionado!')">Selecionar Combo</a>
+	</div>
+	</div>
+
+	
+</main>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
